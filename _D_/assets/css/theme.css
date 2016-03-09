@@ -1,0 +1,221 @@
+*, 
+*:before, 
+*:after {
+	box-sizing:  border-box !important;
+}
+
+body.home{
+	background-color: #222;
+	padding: 50px 10px;
+}
+
+a {
+	color: white;
+}
+a:active {
+	color: white;
+}
+a:hover {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+
+.container.home {
+	margin-top: 15%;
+	color: white;
+}
+
+.logo{
+	margin-bottom: 40px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+input.main-input {
+	width: 75%;
+	height: 45px;
+	padding: 5px 20px;
+	font-size: 20px;	
+	background-color: white;
+	border: none;
+	color: #333;
+}
+
+.menu-link {
+	display: inline-block;
+	color: white;
+}
+
+.search-button {
+	background-color: transparent;
+	border: none;
+	height: 45px;
+	padding: 5px 5px 0 5px;
+	font-size: 20px;
+	color: white;
+}
+
+.search-icon {
+	width: 30px;
+}
+
+.plus-icon {
+	width: 40px;
+}
+
+#advanced-search {
+	margin-top: 25px;
+	padding-left: 0;
+	padding-right: 70px;
+}
+
+input.sec-input {
+	width: 65%;
+	height: 45px;
+	padding: 5px 20px;
+	font-size: 16px;	
+	background-color: white;
+	border: none;
+	display: inline-block;
+	color: #333;
+}
+
+.search-label {
+	display: inline-block;
+	color: white;
+	text-align: right;
+	padding-top: 11px;
+}
+
+.home-link {
+	color: white;
+	padding: 0 10px;
+}
+
+.home-link:hover {
+	text-decoration: underline;
+	color: white;
+}
+.home-link:active {
+	color: white;
+}
+.home-link:visited {
+	color: white;
+}
+
+.row.home-bottom {
+	margin-top: 20px;
+}
+
+.fb-login {
+	background-color: #3b5998;
+	display: inline-block;
+	margin: 100px 0 10px;
+	padding: 10px 40px;
+	color: white;
+}
+
+.fb-login:hover {
+	color: white;
+}
+
+.fb-login i {
+	margin-left: 20px;
+}
+
+.login {
+	margin-top: 20px;
+}
+
+.login input {
+	margin: 10px;
+	color: #333;
+}
+
+.login label {
+	padding-left: 10px;
+}
+
+#login-buttom,
+#signup-buttom {
+	display: inline-block;
+	color: #fff;
+	background-color: #FF004E;
+	padding: 10px 20px;
+	margin: 10px 0 0 10px;
+}
+
+.crear-link {
+	color: #FF004E;
+	text-decoration: underline;
+	
+	padding: 10px 20px;
+}
+
+/* Menu */
+
+header.header {
+	width: 100%;
+	height: 50px;
+	background-color: #222;
+	margin-bottom: 30px;
+	position: fixed;
+	padding-left: 350px;
+	z-index: 1010;
+}
+
+.side-nav {
+    bottom: 0;
+    left: 0;
+    padding-bottom: 50px;
+    position: fixed;
+    top: 50px;
+    background-color: #eee;
+    width: 350px;
+    z-index: 1000;    
+	padding-left: 20px;
+}
+
+.side-title {    	
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #222;
+    border-right: 2px solid #fff;
+    width: 350px;
+    height: 50px;
+    z-index: 1020;
+}
+
+.side-title h1 {
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	font-weight: 100;
+	margin-top: 15px;
+	display: inline-block;
+}
+
+.side-title a {
+	margin-left: 20px;
+	margin-right: 200px;
+}
+
+.side-title i {
+	font-size: 18px;
+}
+
+.main-content {
+	margin-left: 360px;
+	padding-top: 70px;
+	display: inline-block;
+}
+
+.logo.menu {
+	width: 130px;
+	margin-top: 12px;
+}

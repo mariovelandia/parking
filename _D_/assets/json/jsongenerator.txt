@@ -1,0 +1,17 @@
+[
+  '{{repeat(5, 7)}}',
+  {
+    titulo: '{{lorem(2, "words")}}',
+    abstract: '{{lorem(1, "paragraph")}}',
+    tipo: '{{random("Libro", "Electronico", "Tesis")}}',
+    autor: '{{firstName()}} {{surname()}}',
+    longitud: '{{integer(20, 40)}} pg',
+    idioma: '{{random("Español", "Ingles", "Portugues")}}',
+    base_datos: '{{random("Catálogo de la Universidad de los Andes", "Catálogo de la Universidad de los Andes", "Catálogo de la Universidad de los Andes")}}',
+    materias: '{{random("Comunicaciones máquina a máquina", "Responsabilidad civil ", "Películas de suspenso")}}',
+    ubicacion: '{{random("Biblioteca General Ramón de Zubiría", "Col. Recursos Electrónicos / Línea", "Biblioteca Satélite de Derecho / Colección Abierta")}}',
+    clasificacion: '{{random("621.381 M128 Z223", "671.481 M824 Z223", "761.371 F128 Z223")}}',
+    estado: '{{random("No hay copias disponibles", "Recurso Electronico", "1 Copia Disponible")}}',
+    fecha: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}'
+  }
+]
